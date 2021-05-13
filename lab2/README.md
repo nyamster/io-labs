@@ -39,7 +39,7 @@ dmesg
 Выполнить команду `fdisk -l`
 
 Ожидаемый результат
-Device      Boot Start    End Sectors Size Id Type
+```Device      Boot Start    End Sectors Size Id Type
 /dev/lab2p1       2048  22527   20480  10M 83 Linux
 /dev/lab2p2      22528  73727   51200  25M 83 Linux
 /dev/lab2p3      70144 100863   30720  15M 83 Linux
@@ -78,3 +78,4 @@ mkdir: cannot create directory ‘/tmp/io’: File exists
 5.00MiB 0:00:00 [1.44GiB/s] [================================>] 100%            
 5.00MiB 0:00:00 [ 490MiB/s] [================================>] 100%            
 5.00MiB 0:00:00 [ 505MiB/s] [================================>] 100%
+```
