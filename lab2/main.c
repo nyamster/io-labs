@@ -87,7 +87,6 @@ struct part_entry {
     u8  end_cyl;
 
     /* LBA of part first sector */
-    /* https://ru.wikipedia.org/wiki/LBA */
     u32 abs_start_sec;
 
     /* cound of sectors in part */
